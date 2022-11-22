@@ -6,6 +6,7 @@
 
 import math
 
+
 def main():
     # this function calculates Area
 
@@ -13,12 +14,12 @@ def main():
     side = int(input("input the border length: "))
 
     # process
-    area = 0.25 * (math.sqrt (5 *(5 + 2 * math.sqrt(5)))) * math.pow(side, 2)
+    area = 0.25 * (math.sqrt(5 * (5 + 2 * math.sqrt(5)))) * math.pow(side, 2)
     perimeter = 5 * side
 
     # output
-    print("Area of Pentagon is: {:,.2f}".format(area))
-    print("Perimeter of Pentagon is: {:,.2f}".format(perimeter))
+    print("Area of Pentagon is: {:,.2f}cm²".format(area))
+    print("Perimeter of Pentagon is: {:,.2f}cm".format(perimeter))
     print("\nDone.")
 
 
